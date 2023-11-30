@@ -6,6 +6,9 @@ This repository contains the implementation of the DeepCFL model proposed in **L
 Our python code uses the pytorch library for implementing the proposed model. 
 We have set the device to "mps" in the hyperparams.py file for speedup, if mps is not enabled, you may set the device to "cpu".
 
+## Dataset
+Download the dataset from [this link](https://drive.google.com/file/d/1nI0HHw5gtPFdZk2i7JbDxv5mHB9d5USM/view?usp=sharing). 
+
 ## Folders and files
 1. **dataset** (folder) contains the English MNIST dataset (```x_data.pt```), the paired Kannada MNIST dataset (```y_data.pt```) and the data labels (```class_data.pt```)
 2. **results** (folder) will contain the results of all the experiments. Each experiment is named ```run_{experiment number}```. We have included the results of a sample run in the folder ```run_1```. This contains the following
