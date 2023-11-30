@@ -1,0 +1,15 @@
+Run on 2023-11-30_12-37-40
+torch_seed: 17 | numpy: 17 
+fxy_type: Linear
+HYPERPARAMETERS:
+	pred_loss_lambda: 10.008179117830924
+	beta_x: 1.0
+	beta_y: 2.0
+	lambda_2: 0.0
+epochs: 20
+batch_size: 256
+optimizer: Adam
+learning_rate: 0.001
+Scheduler:Sigmoid
+	 sched_init:1.0 | sched_final:10.0
+	sched_width:10.0 | sched_start:-0.2lambda_2: 0.0
